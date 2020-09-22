@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+    <style>
+    .font{
+        color: white;
+        font-size: 20px;
+        font-family: arial;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .timer{
+        top: 15px;
+    }
+
+    .hitPoints {
+        top: 45px;
+        color: green;
+
+    }
+
+
+</style>
+</head>
+<body>
+<span class="timer font">Time: 20s</span>
+<span class="hitPoints font">Score: 0</span>
+
+<script type="module" src="./main.module.js"></script>
+</body>
+</html>
